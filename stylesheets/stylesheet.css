@@ -92,7 +92,7 @@ header h2 {
 }
 
 .inner {
-  width: 630px;
+  width: 680px;
   margin: 0 auto;
 }
 
@@ -343,9 +343,15 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+.container{
+  margin: 0 auto;
+
+}
+
 .outwrap{
   display: inline-block;
-  width: 250px; 
+  margin: 0 4px;
 }
 
 .wrap{
@@ -353,12 +359,15 @@ footer a:hover {
   width: 150px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid #999999;
+  border: 3px solid #d64040;
 }
 .name{
   color: #303030;
   font-family: sans-serif;
   font-weight: bolder;
+  width: 150px;
+  margin: 0;
+  text-align: center;
 }
 .text{
   font-family: sans-serif;
@@ -367,9 +376,10 @@ footer a:hover {
 
 #service{
   font-family: 'Chivo';
-  font-size: 25px;
+  font-size: 30px;
   color: #303030;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 /* #Media Queries
